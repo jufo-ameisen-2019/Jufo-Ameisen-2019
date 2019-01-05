@@ -18,8 +18,10 @@ class Ameise {
   }
 
   void zeige() {
+    if(alive){
     fill(255, 0, 0);
     rect(x*feldZeiger.squareSize, y*feldZeiger.squareSize, antSize, antSize);
+    }
   }
 
   void randomDirection() {

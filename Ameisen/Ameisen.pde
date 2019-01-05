@@ -1,13 +1,12 @@
 void setup(){
   size(1000,1000);
-  
-  feld1 = new Feld(200,200,5);
+  noStroke();
+  feld1 = new Feld(500,500,2);
   feld1.setzeZucker(feld1.sizeX/2, feld1.sizeY/2);
-  
   //feld1.fillRandom();
   
-  for(int i = 0; i < 5000; i++){
-    ameisen.add(new Ameise((int)(random(feld1.sizeX)),(int)random(feld1.sizeY),7,feld1));
+  for(int i = 0; i < 25000; i++){
+    ameisen.add(new Ameise((int)(random(feld1.sizeX)),(int)random(feld1.sizeY),2,feld1));
   }
   
 }
@@ -29,4 +28,5 @@ void draw(){
       c.alive = false;
     }
   }
+  println(frameRate);
 }
