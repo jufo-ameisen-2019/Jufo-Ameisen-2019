@@ -12,3 +12,4 @@ The main repository of our jugend Forscht project about ants from 2019.
 ## Related repositories:
 - __Jufo Ameisen__
 - [Ants Simulator](https://github.com/jufo-ameisen-2019/ants-simulator)
+- [Ameisen Deep Space Ars Electronica](https://github.com/jufo-ameisen-2019/ameisen-deep-space-ars-electronica)
